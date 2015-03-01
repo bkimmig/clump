@@ -162,7 +162,7 @@ def variance_non (mean, sig, p_m, vec, err_vec, model=None):
 ###############################################################################
 # probability distributions 1d
 
-def p_normalized (sig, mean, vec, err_vec, model):
+def p_normalized (sig, mean, vec, err_vec, model=None):
     """
     Walker 2009 equation 9
     
