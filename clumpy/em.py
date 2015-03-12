@@ -1,7 +1,7 @@
 import numpy as np
 
-from . import functions_em as f 
- 
+from . import functions_em as f
+from .py3 import *
 
 def em_vr (velocity, velocity_error, contam_model, 
 			fit_model=None, iterations=50, full_output=False):
