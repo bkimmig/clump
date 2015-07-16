@@ -1,2 +1,2 @@
-# clump
-CLUMP (CLUster MembershiP) a tool for determining kinematic members of a globular cluster.
+# clumpy
+clumPy (CLUster Membership Python) a tool for determining kinematic members of a globular cluster.
