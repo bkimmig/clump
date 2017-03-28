@@ -1,9 +1,22 @@
 # clumpy
 
+## Introduction
+
 clumPy (CLUster Membership Python) a tool for determining kinematic members of a globular cluster.
 
 Using radial velocity, and the distance from the center of the cluster, we can assign membership probabilities to all of the stars. This uses Expectation maximization to determine the membership probabilities. The assumed distribution of the velocities of the clusters are Gaussian. If applicable, you can include a second parameter (e.g. metallicity, log g) to aid in the fit. Finally, you can also include a light profile, like a King (1966) model to aid in the fit.
 
+
+## Examples
+
+You can see some examples in the directory
+
+	$ clumpy/tests/
+
+In there I provide some simulated data and make some plots to show how well it characterizes the simulated data.
+
+
+## Papers
 This is the primary cluster membership code used in the following papers: 
 
 <a href='http://adsabs.harvard.edu/abs/2015AJ....149...53K'> Measuring Consistent Masses for 25 Milky Way Globular Clusters </a>
