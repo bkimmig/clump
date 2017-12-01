@@ -23,7 +23,7 @@ setup(
                  "Topic :: Scientific/Engineering :: Physics",
                  "Topic :: Scientific/Engineering :: Astronomy"],
     platforms='any',
-    version=clumpy.__version__,
+    # version=clumpy.__version__,
     packages=packages,
     ext_modules=ext_modules,
     install_requires=install_requires,
